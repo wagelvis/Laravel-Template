@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "97269068d99a5fada3684a5552801845",
-    "content-hash": "b9b8532d5551cfd596fc61386c69963e",
+    "hash": "a9725618c171158ecab00cad0c7eeef3",
+    "content-hash": "0daed2bfe5ec639c1e9e86da083c5c5a",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
@@ -1058,6 +1058,73 @@
                 "php"
             ],
             "time": "2016-09-16 12:04:44"
+        },
+        {
+            "name": "owen-it/laravel-auditing",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/owen-it/laravel-auditing.git",
+                "reference": "204578127e6d5e293e67e3621db5feb9af4cc068"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/owen-it/laravel-auditing/zipball/204578127e6d5e293e67e3621db5feb9af4cc068",
+                "reference": "204578127e6d5e293e67e3621db5feb9af4cc068",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/bus": "5.3.*",
+                "illuminate/contracts": "5.3.*",
+                "illuminate/database": "5.3.*",
+                "illuminate/queue": "5.3.*",
+                "illuminate/support": "5.3.*",
+                "php": ">=5.5.9",
+                "ramsey/uuid": "~3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "package",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OwenIt\\Auditing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antério Vieira",
+                    "email": "anteriovieira@gmail.com"
+                },
+                {
+                    "name": "Raphael França",
+                    "email": "raphaelfrancabsb@gmail.com"
+                }
+            ],
+            "description": "Keep a change history for your models using laravel and lumen",
+            "homepage": "https://laravel-auditing.com",
+            "keywords": [
+                "Audit",
+                "activity",
+                "auditing",
+                "laravel",
+                "log",
+                "logging",
+                "lumen",
+                "observer",
+                "register"
+            ],
+            "time": "2016-10-11 20:45:51"
         },
         {
             "name": "paragonie/random_compat",
