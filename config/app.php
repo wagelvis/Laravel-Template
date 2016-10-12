@@ -167,6 +167,7 @@ return [
          * Package Service Providers...
          */
 
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
@@ -226,6 +227,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
