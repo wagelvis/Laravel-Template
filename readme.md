@@ -2,7 +2,7 @@
 Laravel 5.3 Template
 
 ## Package include:
-* AdminLTE
+* [AdminLTE] (https://github.com/barryvdh/laravel-debugbar)
 * Debugbar
 * Laravel Collective
 * Laravel Auditing
